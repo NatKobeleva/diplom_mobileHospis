@@ -75,7 +75,7 @@ public class DashboardTests {
         dashboardPage.checkMenuIsDisplayed();
     }
 
-    @Description ("Открытие встранициы Новости из меню")
+    @Description ("Открытие страницы Новости из меню")
     @Test
     public void openNewsFromMenu() {
         dashboardPage.openNewsFromMenu();

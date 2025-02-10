@@ -1,4 +1,4 @@
-package ru.iteco.fmhandroid.ui;
+package ru.iteco.fmhandroid.ui.data;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;

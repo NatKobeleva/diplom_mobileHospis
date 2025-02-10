@@ -17,7 +17,7 @@ import androidx.test.espresso.ViewInteraction;
 import androidx.test.espresso.matcher.ViewMatchers;
 
 import ru.iteco.fmhandroid.R;
-import ru.iteco.fmhandroid.ui.DataGenerator;
+import ru.iteco.fmhandroid.ui.data.DataGenerator;
 
 public class CreateNewsPage {
 

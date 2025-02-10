@@ -73,4 +73,25 @@ public class NewsTest {
     public void editNews() {
         newsSteps.editNews();
     }
+
+    @Description("Сортировка новостей")
+    @Test
+    public void sortNews(){
+        newsSteps.sortingNewsByDate();
+    }
+
+    @Description("Пустая фильтрация новостей")
+    @Test
+    public void filterNewsFromControlPanel(){
+        newsSteps.openFilterNewsFromControlPanel();
+        newsSteps.emptyFilterNews();
+    }
+
+    @Description("Фильтрация новостей по категории")
+    @Test
+    public void filterNewsFromControlPanelByCategory(){
+        newsSteps.openFilterNewsFromControlPanel();
+        newsSteps.filterNewsByCategory();
+    }
 }
+

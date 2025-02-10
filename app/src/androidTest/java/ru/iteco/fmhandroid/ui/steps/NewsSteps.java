@@ -1,15 +1,15 @@
 package ru.iteco.fmhandroid.ui.steps;
 
-import ru.iteco.fmhandroid.ui.DataGenerator;
+import ru.iteco.fmhandroid.ui.data.DataGenerator;
 import ru.iteco.fmhandroid.ui.page.ControlPanelPage;
 import ru.iteco.fmhandroid.ui.page.CreateNewsPage;
-import ru.iteco.fmhandroid.ui.page.DashboardPage;
-import ru.iteco.fmhandroid.ui.page.NewsPage;
+import ru.iteco.fmhandroid.ui.page.FilterNewsPage;
 
 public class NewsSteps {
 
     private final CreateNewsPage createNewsPage = new CreateNewsPage();
     private final ControlPanelPage controlPanel = new ControlPanelPage();
+    private final FilterNewsPage filterNews = new FilterNewsPage();
 
     String randomPublishDate = DataGenerator.generateRandomDate();
     String randomPublishTime = DataGenerator.generateRandomTime();
@@ -64,6 +64,23 @@ public class NewsSteps {
         controlPanel.openControlPanelFromMain();
         controlPanel.pressButtonSortingNews();
 
+    }
+
+    public void openFilterNewsFromControlPanel(){
+        controlPanel.openControlPanelFromMain();
+        controlPanel.pressButtonFilterNews();
+        filterNews.checkFilterIsDisplayed();
+    }
+
+    public void emptyFilterNews(){
+        filterNews.clickFilterButton();
+        controlPanel.checkControlPanelIsDisplayed();
+    }
+
+    public void filterNewsByCategory(){
+        filterNews.selectCategory();
+        filterNews.clickFilterButton();
+        controlPanel.checkControlPanelIsDisplayed();
     }
 
 }

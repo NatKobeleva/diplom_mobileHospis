@@ -11,7 +11,7 @@ import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import androidx.test.espresso.ViewInteraction;
 
 import ru.iteco.fmhandroid.R;
-import ru.iteco.fmhandroid.ui.EspressoCustomActions;
+import ru.iteco.fmhandroid.ui.data.EspressoCustomActions;
 
 public class DashboardPage {
 

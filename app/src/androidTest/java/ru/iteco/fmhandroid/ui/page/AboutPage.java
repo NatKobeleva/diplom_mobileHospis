@@ -10,7 +10,7 @@ import ru.iteco.fmhandroid.R;
 public class AboutPage {
 
     public void checkAboutIsDisplayed() {
-        onView(withId(R.id.container_custom_app_bar_include_on_fragment_about))
+        onView(withId(R.id.about_version_title_text_view))
                 .check(matches(isDisplayed()));
     }
 }

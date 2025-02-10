@@ -12,9 +12,9 @@ import static androidx.test.espresso.matcher.ViewMatchers.withContentDescription
 import static androidx.test.espresso.matcher.ViewMatchers.withId;
 import static androidx.test.espresso.matcher.ViewMatchers.withText;
 import static org.hamcrest.CoreMatchers.allOf;
-import static ru.iteco.fmhandroid.ui.EspressoCustomActions.clickChildViewWithId;
-import static ru.iteco.fmhandroid.ui.EspressoCustomActions.getChildTextViewWithId;
-import static ru.iteco.fmhandroid.ui.EspressoCustomActions.getTextFromView;
+import static ru.iteco.fmhandroid.ui.data.EspressoCustomActions.clickChildViewWithId;
+import static ru.iteco.fmhandroid.ui.data.EspressoCustomActions.getChildTextViewWithId;
+import static ru.iteco.fmhandroid.ui.data.EspressoCustomActions.getTextFromView;
 
 import androidx.test.espresso.ViewInteraction;
 
@@ -30,12 +30,18 @@ public class ControlPanelPage {
     public ViewInteraction buttonOk = onView(withId(android.R.id.button1));
     public ViewInteraction messageDelete = onView(withId(android.R.id.message));
     public ViewInteraction buttonSortingNews = onView(withId(R.id.sort_news_material_button));
+    public ViewInteraction buttonFilterNews = onView(withId(R.id.filter_news_material_button));
 
 
     public ControlPanelPage openControlPanelFromMain() {
         dashboardPage.waitForMainScreen(3000).openNewsFromMain();
         newsPage.openControlPanel();
         return this;
+    }
+
+    public void checkControlPanelIsDisplayed(){
+        onView(withText("Control panel"))
+                .check(matches(isDisplayed()));
     }
 
 
@@ -75,8 +81,15 @@ public class ControlPanelPage {
     }
 
     public void pressButtonSortingNews(){
-        buttonSortingNews.check(matches(isDisplayed()));
-        buttonSortingNews.perform(click());
+        buttonSortingNews
+                .check(matches(isDisplayed()))
+                .perform(click());
+    }
+
+    public void pressButtonFilterNews(){
+        buttonFilterNews
+                .check(matches(isDisplayed()))
+                .perform(click());
     }
 
 }
