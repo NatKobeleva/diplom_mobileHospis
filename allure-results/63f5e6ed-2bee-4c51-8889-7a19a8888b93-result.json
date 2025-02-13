@@ -1,0 +1,53 @@
+{
+    "name": "openNewsFromMenu",
+    "start": 1739443971972,
+    "stop": 1739443977259,
+    "stage": "finished",
+    "description": "Открытие страницы Новости из меню",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "63f5e6ed-2bee-4c51-8889-7a19a8888b93",
+    "historyId": "64fe3777f7bde38fdec77131fb9b26c7",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.DashboardTests.openNewsFromMenu",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.DashboardTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "openNewsFromMenu"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.DashboardTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

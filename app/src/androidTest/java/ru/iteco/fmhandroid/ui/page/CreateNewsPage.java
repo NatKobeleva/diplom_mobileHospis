@@ -28,6 +28,9 @@ public class CreateNewsPage {
     public ViewInteraction description = onView(withId(R.id.news_item_description_text_input_edit_text));
     public ViewInteraction buttonSave = onView(withId(R.id.save_button));
     public ViewInteraction switcher = onView(withId(R.id.switcher));
+    public ViewInteraction buttonCancel = onView(withId(R.id.cancel_button));
+    public ViewInteraction message = onView(withId(android.R.id.message));
+    public ViewInteraction buttonOk = onView(withText("OK"));
 
     public void createCategory() {
         category.perform(click());
@@ -79,5 +82,17 @@ public class CreateNewsPage {
         onView(withText(errorMessage))
                 .inRoot(withDecorView(is(ViewMatchers.isDisplayed())))
                 .check(matches(isDisplayed()));
+    }
+
+    public void clickCancel(){
+        buttonCancel.check(matches(isDisplayed())).perform(scrollTo()).perform(click());
+    }
+
+    public void checkMessageIsDisplayed(){
+        message.check(matches(isDisplayed()));
+    }
+
+    public void clickOk(){
+        buttonOk.check(matches(isDisplayed())).perform(click());
     }
 }

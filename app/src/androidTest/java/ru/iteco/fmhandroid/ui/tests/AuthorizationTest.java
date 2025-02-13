@@ -81,4 +81,11 @@ public class AuthorizationTest {
     public void wrongLoginAndPassTest() {
         authSteps.performLoginWithWrongLoginAndPass();
     }
+
+    @Description("Авторизация с пробелом перед логином и паролем")
+    @Test
+    public void spaceBeforeLoginAndPassword(){
+        authSteps.performLogin(" login2", " password2");
+        authPage.checkLoginErrorMessage("Something went wrong. Try again later.");
+    }
 }

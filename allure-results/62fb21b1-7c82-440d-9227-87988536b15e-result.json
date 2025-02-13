@@ -1,0 +1,53 @@
+{
+    "name": "filterNewsFromControlPanel",
+    "start": 1739444007135,
+    "stop": 1739444015787,
+    "stage": "finished",
+    "description": "Пустая фильтрация новостей",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "62fb21b1-7c82-440d-9227-87988536b15e",
+    "historyId": "2c7a018601f40780a5eeacb0f4936bfc",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.NewsTest.filterNewsFromControlPanel",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "filterNewsFromControlPanel"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

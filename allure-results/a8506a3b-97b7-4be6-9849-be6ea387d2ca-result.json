@@ -1,0 +1,53 @@
+{
+    "name": "wrongLoginTest",
+    "start": 1739443939902,
+    "stop": 1739443945801,
+    "stage": "finished",
+    "description": "Авторизация с неверным логином",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "a8506a3b-97b7-4be6-9849-be6ea387d2ca",
+    "historyId": "9bfdc2c8c82f93765864c7fd42b436d6",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.AuthorizationTest.wrongLoginTest",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.AuthorizationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "wrongLoginTest"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.AuthorizationTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

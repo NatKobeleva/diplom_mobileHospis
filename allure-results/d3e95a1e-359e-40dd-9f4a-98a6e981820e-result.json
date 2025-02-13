@@ -1,0 +1,53 @@
+{
+    "name": "openOurMission",
+    "start": 1739444001261,
+    "stop": 1739444007126,
+    "stage": "finished",
+    "description": "Открытие страницы с цитатами",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "d3e95a1e-359e-40dd-9f4a-98a6e981820e",
+    "historyId": "fe63202b62cfc8a1fabdbc69fc4b2d3e",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.DashboardTests.openOurMission",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.DashboardTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "openOurMission"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.DashboardTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

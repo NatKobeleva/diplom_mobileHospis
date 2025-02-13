@@ -60,6 +60,15 @@ public class NewsSteps {
         controlPanel.checkDescription(getLastGeneratedDescription());
     }
 
+    public void cancelAddNews() {
+        controlPanel
+                .openControlPanelFromMain()
+                .addNews();
+        createNewsPage.clickCancel();
+        createNewsPage.checkMessageIsDisplayed();
+        createNewsPage.clickOk();
+    }
+
     public void sortingNewsByDate(){
         controlPanel.openControlPanelFromMain();
         controlPanel.pressButtonSortingNews();

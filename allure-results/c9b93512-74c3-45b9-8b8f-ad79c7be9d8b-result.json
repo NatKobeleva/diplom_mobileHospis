@@ -1,0 +1,53 @@
+{
+    "name": "cancelAddNews",
+    "start": 1739444034678,
+    "stop": 1739444043636,
+    "stage": "finished",
+    "description": "Отмена добавления новости",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "c9b93512-74c3-45b9-8b8f-ad79c7be9d8b",
+    "historyId": "caa487c389603dcb7693df352300bb61",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.NewsTest.cancelAddNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "cancelAddNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

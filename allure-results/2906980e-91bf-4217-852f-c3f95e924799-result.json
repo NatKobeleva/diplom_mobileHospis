@@ -1,0 +1,53 @@
+{
+    "name": "testAddRandomNews",
+    "start": 1739444070086,
+    "stop": 1739444080371,
+    "stage": "finished",
+    "description": "Успешное добавление новости с рандомными данными",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "2906980e-91bf-4217-852f-c3f95e924799",
+    "historyId": "e53b72482707677f6c6f55132de4be4d",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.NewsTest.testAddRandomNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "testAddRandomNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

@@ -74,6 +74,13 @@ public class NewsTest {
         newsSteps.editNews();
     }
 
+    @Description("Отмена добавления новости")
+    @Test
+    public void cancelAddNews(){
+        newsSteps.cancelAddNews();
+        panelNews.checkControlPanelIsDisplayed();
+    }
+
     @Description("Сортировка новостей")
     @Test
     public void sortNews(){

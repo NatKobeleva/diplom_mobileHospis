@@ -1,0 +1,53 @@
+{
+    "name": "successfulLogOut",
+    "start": 1739443993452,
+    "stop": 1739444001250,
+    "stage": "finished",
+    "description": "Выход из аккаунта",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "2b07cad4-dfdd-4eb6-89fa-300a54be4ec7",
+    "historyId": "d2ea2e97247c8315c2c89984dee7cc0c",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.DashboardTests.successfulLogOut",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.DashboardTests"
+        },
+        {
+            "name": "testMethod",
+            "value": "successfulLogOut"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.DashboardTests"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

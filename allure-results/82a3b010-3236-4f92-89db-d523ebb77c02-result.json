@@ -1,0 +1,53 @@
+{
+    "name": "editNews",
+    "start": 1739444043640,
+    "stop": 1739444053021,
+    "stage": "finished",
+    "description": "Редактирование существующей новости",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "82a3b010-3236-4f92-89db-d523ebb77c02",
+    "historyId": "2d5b1cf97acb2460b9b42ba6b48ba2c9",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.NewsTest.editNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "editNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}

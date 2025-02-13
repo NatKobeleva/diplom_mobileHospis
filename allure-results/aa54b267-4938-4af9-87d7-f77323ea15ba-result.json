@@ -1,0 +1,53 @@
+{
+    "name": "sortNews",
+    "start": 1739444053029,
+    "stop": 1739444061647,
+    "stage": "finished",
+    "description": "Сортировка новостей",
+    "descriptionHtml": null,
+    "status": "passed",
+    "statusDetails": null,
+    "steps": [
+    ],
+    "attachments": [
+    ],
+    "parameters": [
+    ],
+    "uuid": "aa54b267-4938-4af9-87d7-f77323ea15ba",
+    "historyId": "ddc5c42ed61afb40f9aeb0aedcc367b3",
+    "fullName": "ru.iteco.fmhandroid.ui.tests.NewsTest.sortNews",
+    "labels": [
+        {
+            "name": "package",
+            "value": "ru.iteco.fmhandroid.ui.tests"
+        },
+        {
+            "name": "testClass",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "sortNews"
+        },
+        {
+            "name": "suite",
+            "value": "ru.iteco.fmhandroid.ui.tests.NewsTest"
+        },
+        {
+            "name": "host",
+            "value": "localhost"
+        },
+        {
+            "name": "thread",
+            "value": "Instr: io.qameta.allure.android.runners.AllureAndroidJUnitRunner(548)"
+        },
+        {
+            "name": "framework",
+            "value": "junit4"
+        },
+        {
+            "name": "language",
+            "value": "kotlin"
+        }
+    ]
+}
